@@ -7,7 +7,7 @@ import qrcode
 
 # Constantes
 PASTA_TEMP = "/tmp"
-ORIGEM_LOGO = r'C:\Users\Rafael Loredo\Documents\MUNDIAL REFRIGERAÇÃO\Scripts\Gerador Num Série\LOGO.png'
+ORIGEM_LOGO = 'LOGO.png'
 DESTINO_LOGO = os.path.join(PASTA_TEMP, "LOGO.png")
 if not os.path.isfile(ORIGEM_LOGO):
     raise FileNotFoundError(
