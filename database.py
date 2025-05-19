@@ -8,7 +8,7 @@ def conectar():
         conn = psycopg2.connect(
             user="postgres",
             password="114527",  # Substitua pela senha real
-            host="localhost",
+            host="192.168.1.41",
             port="5432",
             dbname="Loredo",
             cursor_factory=RealDictCursor
