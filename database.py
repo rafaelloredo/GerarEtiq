@@ -6,7 +6,7 @@ def conectar():
     try:
         # Defina a senha diretamente. Troque "sua_senha" pela senha real do seu banco de dados.
         conn = psycopg2.connect(
-            user="postgres",
+            user="Mundial",
             password="114527",  # Substitua pela senha real
             host="192.168.1.41",
             port="5432",
